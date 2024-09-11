@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.yourcompany.re-collect</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>re-collect-ai</string>
+			</array>
+		</dict>
+	</array>
+	<key>SUEnableDownloaderService</key>
+	<true/>
+	<key>SUEnableInstallerLauncherService</key>
+	<true/>
+	<key>SUFeedURL</key>
+	<string>https://www.re-collect.ai/download/mac-dev/appcast.xml</string>
+	<key>SUPublicEDKey</key>
+	<string>yTIF5jGWOFJkFujCnZVaqWaHnX1/Cp+DmuBL6bc+4Ek=</string>
+	<key>com.apple.security.files.user-selected.read-write</key>
+	<string>Needed</string>
+	<key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+	<array>
+		<string>$(PRODUCT_BUNDLE_IDENTIFIER)-spks</string>
+		<string>$(PRODUCT_BUNDLE_IDENTIFIER)-spki</string>
+	</array>
+</dict>
+</plist>
